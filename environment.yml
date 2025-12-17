@@ -1,0 +1,15 @@
+name: adv_patch
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.8
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - tqdm
+

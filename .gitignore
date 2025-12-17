@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data (do NOT upload CIFAR-10)
+data/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Virtual environments
+.env
+.venv
+conda/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+
+# OS files
+.DS_Store
